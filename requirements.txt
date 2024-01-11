@@ -1,0 +1,12 @@
+pandas
+numpy
+pathlib
+seaborn
+matplotlib
+scikit-learn
+ipykernel
+flask
+pyodbc
+nltk
+
+-e .

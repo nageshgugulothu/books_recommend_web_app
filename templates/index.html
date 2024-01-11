@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Book Recommendation System</title>
+</head>
+<body>
+    <a href="https://github.com/nageshgugulothu/thyroid-detection" class="top-left-link" target="_blank">GitHub Repository Link</a>
+    <img src="{{url_for('static', filename='/images/nagesh_photo.jpg')}}" alt="Your Profile Picture" class="profile">
+    <div class="profile-name">Nageshwar</div>
+
+    <h1>Book Recommendation System</h1>
+    <form action="/recommend" method="post">
+        <label for="book_title">Select a Book:</label>
+        <select id="book_title" name="book_title" required>
+            {% for book_title in book_titles %}
+                <option value="{{ book_title }}">{{ book_title }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Get Recommendations</button>
+    </form>
+</body>
+        <font face="bold" color="#FFBF00" size="5"><marquee scrollamount="10" >
+        <h5>Book Recommendations</h5></marquee></font>
+</html>

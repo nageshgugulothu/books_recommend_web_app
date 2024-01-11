@@ -1,0 +1,4 @@
+[2024-01-09 14:47:46,242 23 root - INFO - Starting data ingestion]
+[2024-01-09 14:47:47,113 63 root - INFO - Data ingestion is completed]
+[2024-01-09 14:47:47,221 25 root - INFO - Data Transformation initiated]
+[2024-01-09 14:47:47,336 59 root - INFO - Pickle files saved]

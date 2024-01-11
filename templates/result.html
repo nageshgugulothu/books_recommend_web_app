@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Book Recommendations</title>
+</head>
+<body>
+    <a href="https://github.com/nageshgugulothu/thyroid-detection" class="top-left-link" target="_blank">GitHub Repository Link</a>
+    <img src="{{url_for('static', filename='/images/nagesh_photo.jpg')}}" alt="Your Profile Picture" class="profile">
+
+    <h1>Book Recommendations for : {{ book_title }}</h1>
+    <ul>
+        {% for book in recommended_books %}
+            <li>{{ book }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}" class="go-back-link">Go back to home</a>
+</body>
+    <font face="bold" color="#FFBF00" size="5"><marquee scrollamount="10" >
+    <h5>Book Recommendations</h5></marquee></font>
+</html>

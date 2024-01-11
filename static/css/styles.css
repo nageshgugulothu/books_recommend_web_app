@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c1924;
+    margin: 0;
+    padding: 0;
+}
+
+.top-left-link {
+    position: absolute;
+    top: 5px; /* Add some top margin */
+    left: 20px; /* Add some left margin */
+    padding: 10px; /* Add some padding */
+    background-color: #89e9c1; /* Add a background color */
+    border-radius: 10px; /* Add some rounded corners */
+    font-size: 14px; /* Increase the font size */
+    color: rgba(23, 26, 29, 0.582); /* Change the font color */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.top-left-link:hover {
+    background-color: #e763a1; /* Your desired background color on hover */
+    color: white; /* Your desired font color on hover */
+}
+
+.profile
+{
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    width: 80px; /* Adjust the width as per your image size */
+    height: 80px; /* Adjust the height as per your image size */
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 100px; /* Add margin at the bottom to move the image */
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+    /* Add a shadow for better visibility */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile:hover {
+    transform: scale(1.3); /* Scale up the image on hover */
+}
+
+.profile::after {
+    content: 'Nageshwar'; /* Your desired name */
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    color: #131212; /* Your desired font color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    
+}
+
+form {
+    text-align: center;
+    margin-top: 25px;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e763a1;
+}
+
+.result-container {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    font-size: 16px;
+    margin: 10px 0;
+    font-family: 'Your Desired Font', sans-serif; /* Replace with your desired font */
+    color: #DFFF00; /* Your desired font color */
+    padding-left: 20px;
+}
+
+.go-back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff; /* Your desired font color */
+    background-color: #4caf50; /* Your desired background color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    float: right; /* Align to the right */
+    margin-right: 20px; /* Add some right margin for spacing */
+}
+
+.go-back-link:hover {
+    background-color: #e763a1; /* Your desired background color on hover */
+    color: #fff; /* Your desired font color on hover */
+}
+
+
+.error-container {
+    margin-top: 20px;
+    text-align: center;
+    color: #d9534f;
+}
+
+@media screen and (max-width: 600px) {
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 80%;
+    }
+}

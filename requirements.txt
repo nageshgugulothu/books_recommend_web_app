@@ -8,5 +8,7 @@ ipykernel
 flask
 pyodbc
 nltk
+pymongo[srv]==3.8
+certifi
 
 -e .

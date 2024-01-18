@@ -36,33 +36,18 @@ body {
     margin-bottom: 100px; /* Add margin at the bottom to move the image */
     overflow: hidden;
     transition: transform 0.3s ease; /* Add transition for smooth scaling */
-    /* Add a shadow for better visibility */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
 }
 
 .profile:hover {
     transform: scale(1.3); /* Scale up the image on hover */
 }
 
-.profile::after {
-    content: 'Nageshwar'; /* Your desired name */
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    color: #131212; /* Your desired font color */
-}
-
 .container {
     max-width: 800px;
     margin: 50px auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -81,7 +66,7 @@ form {
 
 label {
     font-size: 18px;
-    margin-right: 10px;
+    margin-right: 5px;
     color: #fff;
 }
 

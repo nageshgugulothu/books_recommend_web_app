@@ -10,5 +10,6 @@ pyodbc
 nltk
 pymongo[srv]==3.8
 certifi
+sqlalchemy
 
 -e .

@@ -9,6 +9,7 @@ from src.logger import logging
 import warnings
 warnings.filterwarnings('ignore')
 import pyodbc
+from sqlalchemy import create_engine
 
 @dataclass
 class DataIngestionConfig():
@@ -23,14 +24,13 @@ class DataIngestion():
         logging.info("Starting data ingestion")
         try:
             # Replace with your SQL Server details
-            server = 'NAGESH\\SQLEXPRESS'
+            server = 'NAGESH'
             database = 'ML_Projects_db'
             username = 'sa'
-            password = 'nagesh@sharvan'
+            password = 'nagesh'
 
             # Connect to SQL Server
-            connection_string = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password};'
-            connection = pyodbc.connect(connection_string)
+            connection = create_engine(f'mssql+pyodbc://{server}/{database}?driver=ODBC+Driver+17+for+SQL+Server')
 
             # Execute SQL Query
             query = 'SELECT * FROM books_data'

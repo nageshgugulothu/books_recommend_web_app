@@ -24,20 +24,22 @@ class DataIngestion():
         logging.info("Starting data ingestion")
         try:
             # Replace with your SQL Server details
-            server = 'NAGESH'
-            database = 'ML_Projects_db'
-            username = 'sa'
-            password = 'nagesh'
+            # server = 'NAGESH'
+            # database = 'ML_Projects_db'
+            # username = 'sa'
+            # password = 'nagesh'
 
-            # Connect to SQL Server
-            connection = create_engine(f'mssql+pyodbc://{server}/{database}?driver=ODBC+Driver+17+for+SQL+Server')
+            # # Connect to SQL Server
+            # connection = create_engine(f'mssql+pyodbc://{server}/{database}?driver=ODBC+Driver+17+for+SQL+Server')
 
-            # Execute SQL Query
-            query = 'SELECT * FROM books_data'
-            data = pd.read_sql(query, connection)
+            # # Execute SQL Query
+            # query = 'SELECT * FROM books_data'
+            # data = pd.read_sql(query, connection)
 
-            # copy the data from original data
-            df = data.copy()
+            # # copy the data from original data
+            # df = data.copy()
+            df = pd.read_csv(os.path.join("./notebook/data/books_data.csv"))
+            logging.info("reading data is completed")
 
              # Save the raw-data
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path), exist_ok=True)

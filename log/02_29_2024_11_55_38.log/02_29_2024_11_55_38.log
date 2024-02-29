@@ -1,0 +1,134 @@
+[2024-02-29 11:56:03,268 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.112.21:8080]
+[2024-02-29 11:56:03,268 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m]
+[2024-02-29 11:56:15,941 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 11:56:15] "GET / HTTP/1.1" 200 -]
+[2024-02-29 11:56:15,979 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 11:56:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 11:56:16,037 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 11:56:16] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 11:56:20,429 25 root - INFO - Data Transformation initiated]
+[2024-02-29 11:56:20,497 44 root - INFO - Pickle files saved]
+[2024-02-29 11:56:20,497 24 root - INFO - Starting data ingestion]
+[2024-02-29 11:56:21,645 63 root - INFO - Data ingestion is completed]
+[2024-02-29 11:56:21,682 54 root - INFO - Model training completed.]
+[2024-02-29 11:56:21,740 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 11:56:21] "POST /recommend HTTP/1.1" 200 -]
+[2024-02-29 11:56:21,766 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 11:56:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 11:56:21,776 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 11:56:21] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:15,075 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:15] "GET / HTTP/1.1" 200 -]
+[2024-02-29 13:12:15,179 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:15,320 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:15] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:18,563 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:18] "GET / HTTP/1.1" 200 -]
+[2024-02-29 13:12:18,870 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:18,901 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:18] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:20,744 25 root - INFO - Data Transformation initiated]
+[2024-02-29 13:12:20,802 44 root - INFO - Pickle files saved]
+[2024-02-29 13:12:20,803 24 root - INFO - Starting data ingestion]
+[2024-02-29 13:12:25,964 25 root - INFO - Data Transformation initiated]
+[2024-02-29 13:12:26,049 44 root - INFO - Pickle files saved]
+[2024-02-29 13:12:26,050 24 root - INFO - Starting data ingestion]
+[2024-02-29 13:12:36,122 63 root - INFO - Data ingestion is completed]
+[2024-02-29 13:12:36,125 63 root - INFO - Data ingestion is completed]
+[2024-02-29 13:12:36,182 54 root - INFO - Model training completed.]
+[2024-02-29 13:12:36,189 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:36] "POST /recommend HTTP/1.1" 200 -]
+[2024-02-29 13:12:36,190 54 root - INFO - Model training completed.]
+[2024-02-29 13:12:36,199 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:36] "POST /recommend HTTP/1.1" 200 -]
+[2024-02-29 13:12:36,226 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:36,549 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:36] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:48,138 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:48] "GET / HTTP/1.1" 200 -]
+[2024-02-29 13:12:48,443 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:48,477 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:48] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:52,647 25 root - INFO - Data Transformation initiated]
+[2024-02-29 13:12:52,705 44 root - INFO - Pickle files saved]
+[2024-02-29 13:12:52,706 24 root - INFO - Starting data ingestion]
+[2024-02-29 13:12:52,822 63 root - INFO - Data ingestion is completed]
+[2024-02-29 13:12:52,903 54 root - INFO - Model training completed.]
+[2024-02-29 13:12:52,915 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:52] "POST /recommend HTTP/1.1" 200 -]
+[2024-02-29 13:12:52,940 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:52,958 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:52] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:55,046 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:55] "GET / HTTP/1.1" 200 -]
+[2024-02-29 13:12:55,153 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:12:55,307 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:12:55] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:20:36,523 825 application - ERROR - Exception on / [GET]]
+Traceback (most recent call last):
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "application.py", line 11, in index
+    df = pd.read_csv('artifacts/books_data.csv')
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/books_data.csv'
+[2024-02-29 13:20:36,727 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:20:36] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-02-29 13:22:37,215 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:37] "GET / HTTP/1.1" 200 -]
+[2024-02-29 13:22:37,236 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:37,472 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:37] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:40,383 25 root - INFO - Data Transformation initiated]
+[2024-02-29 13:22:40,441 44 root - INFO - Pickle files saved]
+[2024-02-29 13:22:40,441 24 root - INFO - Starting data ingestion]
+[2024-02-29 13:22:41,674 63 root - INFO - Data ingestion is completed]
+[2024-02-29 13:22:41,718 54 root - INFO - Model training completed.]
+[2024-02-29 13:22:41,725 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:41] "POST /recommend HTTP/1.1" 200 -]
+[2024-02-29 13:22:41,750 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:41,760 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:41] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:53,206 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:53] "GET / HTTP/1.1" 200 -]
+[2024-02-29 13:22:53,310 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:53,456 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:53] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:56,935 25 root - INFO - Data Transformation initiated]
+[2024-02-29 13:22:56,980 44 root - INFO - Pickle files saved]
+[2024-02-29 13:22:56,981 24 root - INFO - Starting data ingestion]
+[2024-02-29 13:22:57,039 63 root - INFO - Data ingestion is completed]
+[2024-02-29 13:22:57,076 54 root - INFO - Model training completed.]
+[2024-02-29 13:22:57,084 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:57] "POST /recommend HTTP/1.1" 200 -]
+[2024-02-29 13:22:57,249 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:57,436 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:57] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:59,342 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:59] "GET / HTTP/1.1" 200 -]
+[2024-02-29 13:22:59,493 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:22:59,604 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:22:59] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:23:58,521 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:23:58] "GET / HTTP/1.1" 200 -]
+[2024-02-29 13:23:58,829 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:23:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:23:58,855 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:23:58] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:24:04,103 25 root - INFO - Data Transformation initiated]
+[2024-02-29 13:24:04,148 44 root - INFO - Pickle files saved]
+[2024-02-29 13:24:04,148 24 root - INFO - Starting data ingestion]
+[2024-02-29 13:24:04,746 63 root - INFO - Data ingestion is completed]
+[2024-02-29 13:24:04,795 54 root - INFO - Model training completed.]
+[2024-02-29 13:24:04,803 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:24:04] "POST /recommend HTTP/1.1" 200 -]
+[2024-02-29 13:24:04,832 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:24:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 13:24:04,846 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:24:04] "[36mGET /static/images/nagesh_photo.jpg HTTP/1.1[0m" 304 -]
+[2024-02-29 13:24:39,422 825 application - ERROR - Exception on / [GET]]
+Traceback (most recent call last):
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "application.py", line 11, in index
+    df = pd.read_csv('artifacts/books_data.csv')
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "D:\ML_Projects\books_recommend_web_app\env\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/books_data.csv'
+[2024-02-29 13:24:39,423 96 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2024 13:24:39] "[35m[1mGET / HTTP/1.1[0m" 500 -]
